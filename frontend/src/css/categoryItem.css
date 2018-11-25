@@ -1,0 +1,21 @@
+.categoryImg img{
+  	width: 250px;
+  	height: 150px;
+  	padding-bottom: 10px;
+  	cursor: pointer;
+	/*border-radius: 10px; */
+	/*неге bottom ??*/
+}
+
+/*h2 { 
+  position: absolute; 
+  top: 200px; 
+  left:100px; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   
+}*/
+

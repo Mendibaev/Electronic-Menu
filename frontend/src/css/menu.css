@@ -1,0 +1,48 @@
+.menu{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	height: 600px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.container{
+	display: flex;
+	flex-flow: row nowrap; 
+	flex-direction: row;
+  	align-content: space-between;
+	width: 1000px;
+}
+
+.categoryList{
+	/*background-color: yellow;*/
+    width: 900px;
+    height: 603px;
+    border: 1px dotted black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+.clerfix:after {
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.service {
+	float: left;
+}
+.service:last-child{
+	float: right;
+}
+.service nth-child(2) {
+	margin-left: 10px;
+}
+
+
+
+
+

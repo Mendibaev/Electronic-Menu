@@ -1,0 +1,15 @@
+{% extends 'main/base.html' %}
+
+{% block body %}
+
+    {% if category.product_set.all %}
+        <ul>
+            {% for product in category.product_set.all %}
+                <li><a href="">{{ product.name }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No product is available at the moment.</p>
+    {% endif %}
+
+{% endblock %}

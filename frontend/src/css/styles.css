@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+	/*background-image: url('../images/bg.jpg');*/
+	/*background-color: #EDC7B7;		*/
+	/*background-color: #AFD275;*/
+	background-size: 100%; 
+	font-family: "Comic Sans MS", Comic Sans, cursive;
+	/*font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;*/
+
+	
+}
+
+.app{
+	background-color: orange;
+	/*margin-top: 20px;*/
+	padding-bottom: 5px;
+	padding-top: 5px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.logo {
+	margin-left: 180px;
+}
+
+.link{
+
+	/*padding-left: 100px;*/
+	/*padding-right: 100px;*/
+	display: flex;
+	flex-direction: initial;
+	align-items: center;
+	justify-content: flex-end;
+	width: 600px;
+	height: 70px;
+	margin: auto;
+	/*margin-top: 60px;*/
+	/*background-color: #AFD275;*/
+
+	margin-left: 175px;
+	
+}
+
+.to{
+	color: white;
+	font-size: 25px;
+	/*margin-bottom: 10px;*/
+	text-decoration: none;
+	/*background-color: blue;*/
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
+	margin-right: 50px;
+}
+

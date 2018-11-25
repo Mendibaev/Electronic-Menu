@@ -1,0 +1,53 @@
+.contact{
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.contact h2{
+	margin-top: 20px;
+}
+
+.info-karta{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.info-contacts{
+	margin-left: 40px;
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+}
+
+.info-contacts label{
+	font-weight: bold;
+}
+
+.info-contacts p{
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+.karta{
+	background-image: url('../images/karta.PNG');
+	background-size: 600px;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	border: 2px solid ;
+	margin-top: 10px;
+}
+
+.icons{
+	border-radius: 5px;
+	margin: 0 5px 0 5px;
+}

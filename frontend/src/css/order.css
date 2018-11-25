@@ -1,0 +1,149 @@
+.orderPage{
+	padding-top: 5px;
+	/*background-color: #D8B7AA;*/
+	background-color: #47494D;
+	width: 280px;
+	height: 600px;
+	/*margin-left: 200px;*/
+
+}
+
+.orderPage h3{
+	text-align: left;
+	margin-left: 20px;
+	color: white;
+}
+
+.order{
+	background-color: #47494D;
+	width: 280px;	
+	min-height: 300px;
+}
+
+.orderName{
+	margin: 0;
+	padding: 0;
+	height: 10px;
+}
+
+.orderName p{
+	color: white;
+}
+
+.orderItem{
+	display: flex;
+	flex-wrap: nowrap;
+	height: 30px;
+	margin-top: 2px;
+	margin-left: 10px;
+}
+
+.orderItem input{
+	background-color: transparent;
+	border: none;
+	color: white;
+	width: 40px;
+	margin-left: 10px;
+}
+
+.orderItem p{
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+.orderItem button{
+	border-radius: 2px;
+	border-style: none;
+	cursor: pointer;
+}
+
+.orderItem button:hover {
+    color: #202129;
+    background-color: orange;
+    opacity: 1;
+}
+
+.white-1{
+	background-color: white;
+	width: 280px;
+	height: 1px;
+}
+
+.white-2{
+	background-color: white;
+	width: 240px;
+	height: 2px;
+	margin-left: 20px;
+	border-radius: 2px;
+}
+
+.total{
+	width: 280px;
+	background-color: #47494D;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.total p{
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+	margin: 0 0 0 15px;
+	padding: 0;
+	font-size: 15px;
+
+}
+
+.total input{
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+.specialRequest{
+	width: 280px;
+	background-color: #47494D;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.specialRequest p{
+	text-align: left;
+	color: white;
+	margin-left: 20px;
+	margin: 0 0 0 15px;
+	padding: 0;
+	font-size: 15px;
+}
+
+.time{
+	width: 280px;
+	background-color: #47494D;
+	margin-top: 10px;
+}
+
+.time p{
+	text-align: left;
+	color: white;
+	margin: 0 0 0 15px;	
+	padding: 0;
+	font-size: 15px;
+}
+
+.orderButton{
+	margin: 20px 0 0 0;
+	width: 120px;
+	height: 25px;
+	border-radius: 7px;
+	border-style: none;
+	cursor: pointer;
+
+	
+}
+
+.orderButton:hover {
+    color: #202129;
+    background-color: orange;
+    opacity: 1;
+  }

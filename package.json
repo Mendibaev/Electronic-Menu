@@ -1,0 +1,54 @@
+{
+  "name": "menu",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "webpack --mode development ./frontend/src/index.js --output ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/main.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "*** #### In our point of view, this project will interested by many restaurants, cafes and  #### places like these. It will be electronic menu which will used instead of paper menus. ***  #### The main idea of electronic menu is there is no waitress who will accept the order.  #### There will a list of snacks, dishes, culinary products, alcoholic and non-alcoholic beverages  #### and other products that are on sale. Each category of foods will in different pages. Each  #### item(food, drink) will clickable and will contain photo, description, price, weight. When  #### client will click it, it will move to the order sheet of client. At the end of order sheet will total  #### bill(total money) of order, people can see bill before accepting order. In our mind it is  #### important and convenient. At the end, client will click \"To order\" button, after order sheet  #### will sent to the chefs in kitchen or manager. Chefs will cook food looking electronic order  #### sheet on the TV or computer which will located in the kitchen. Waitress will only bring food  #### or drink to the client in the hall.  *** #### \tIf we come up with new ideas, we will add some functionalities.",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "ajv": "^6.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "json-loader": "^0.5.7",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mendibaev/Electronic-Menu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mendibaev/Electronic-Menu/issues"
+  },
+  "homepage": "https://github.com/Mendibaev/Electronic-Menu#readme"
+}
