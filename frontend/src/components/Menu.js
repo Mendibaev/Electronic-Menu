@@ -295,6 +295,7 @@ class Menu extends Component {
           <div className="imgMenu"></div>
           <div className="container clearfix">
               <div className="categoryList service">
+
               <CategoryList categories = {this.state.categories} 
                             handleOrder= {(id,foodName,price)=>this.handleOrder(id,foodName,price)} />
                </div> 
